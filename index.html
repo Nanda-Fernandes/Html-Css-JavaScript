@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda sobre Inteligência Artificial de forma simples e didática">
+    <title>IA para Iniciantes - Aprenda sobre Inteligência Artificial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- CABEÇALHO E NAVEGAÇÃO -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>🤖 IA para Iniciantes</h1>
+            </div>
+            
+            <!-- Menu de navegação -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#o-que-e" class="nav-link">O que é IA</a></li>
+                <li><a href="#aplicacoes" class="nav-link">Aplicações</a></li>
+                <li><a href="#historia" class="nav-link">História</a></li>
+                <li><a href="#recursos" class="nav-link">Recursos</a></li>
+                <li><a href="#quiz" class="nav-link">Quiz</a></li>
+            </ul>
+            
+            <!-- Botão hamburguer para menu mobile -->
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!--SEÇÃO HERO (PÁGINA INICIAL)-->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Bem-vindo ao Mundo da Inteligência Artificial</h2>
+                <p class="hero-description">
+                    Descubra como a IA está transformando o mundo e aprenda os conceitos fundamentais 
+                    de forma simples e acessível. Perfeito para quem está começando!
+                </p>
+                <a href="#o-que-e" class="btn-primary">Começar a Aprender</a>
+            </div>
+            
+            <!-- Imagem ilustrativa de IA -->
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop" 
+                     alt="Ilustração de Inteligência Artificial" 
+                     loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!--SEÇÃO: O QUE É IA-->
+    <section id="o-que-e" class="section">
+        <div class="container">
+            <h2 class="section-title">O que é Inteligência Artificial?</h2>
+            <p class="section-intro">
+                A Inteligência Artificial é a capacidade de máquinas realizarem tarefas que 
+                normalmente requerem inteligência humana.
+            </p>
+            
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-icon">🧠</div>
+                    <h3>Aprendizado</h3>
+                    <p>Sistemas que aprendem com dados e experiências, melhorando seu desempenho ao longo do tempo.</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-icon">💭</div>
+                    <h3>Raciocínio</h3>
+                    <p>Capacidade de processar informações e tomar decisões lógicas baseadas em regras e padrões.</p>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Resolução de Problemas</h3>
+                    <p>Habilidade de encontrar soluções para problemas complexos de forma autônoma e eficiente.</p>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-icon">👁️</div>
+                    <h3>Percepção</h3>
+                    <p>Reconhecimento de padrões visuais, sonoros e textuais, similar aos sentidos humanos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SEÇÃO: APLICAÇÕES DA IA-->
+    <section id="aplicacoes" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Aplicações da IA no Dia a Dia</h2>
+            <p class="section-intro">
+                A Inteligência Artificial já está presente em diversos aspectos da nossa vida cotidiana.
+            </p>
+            
+            <div class="applications-grid">
+                <!-- Aplicação 1 -->
+                <div class="application-item">
+                    <div class="app-icon">📱</div>
+                    <h3>Assistentes Virtuais</h3>
+                    <p>Siri, Alexa e Google Assistant usam IA para entender comandos de voz e responder perguntas.</p>
+                </div>
+                
+                <!-- Aplicação 2 -->
+                <div class="application-item">
+                    <div class="app-icon">🎬</div>
+                    <h3>Recomendações</h3>
+                    <p>Netflix, Spotify e YouTube usam IA para sugerir conteúdos baseados em seus gostos.</p>
+                </div>
+                
+                <!-- Aplicação 3 -->
+                <div class="application-item">
+                    <div class="app-icon">🚗</div>
+                    <h3>Carros Autônomos</h3>
+                    <p>Veículos que dirigem sozinhos usando sensores e algoritmos de IA para navegar com segurança.</p>
+                </div>
+                
+                <!-- Aplicação 4 -->
+                <div class="application-item">
+                    <div class="app-icon">🏥</div>
+                    <h3>Medicina</h3>
+                    <p>Diagnóstico de doenças, análise de exames e descoberta de novos medicamentos.</p>
+                </div>
+                
+                <!-- Aplicação 5 -->
+                <div class="application-item">
+                    <div class="app-icon">🔒</div>
+                    <h3>Segurança</h3>
+                    <p>Reconhecimento facial, detecção de fraudes e sistemas de segurança inteligentes.</p>
+                </div>
+                
+                <!-- Aplicação 6 -->
+                <div class="application-item">
+                    <div class="app-icon">💬</div>
+                    <h3>Chatbots</h3>
+                    <p>Atendimento automatizado em sites e aplicativos para responder dúvidas rapidamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SEÇÃO: HISTÓRIA DA IA-->
+    <section id="historia" class="section">
+        <div class="container">
+            <h2 class="section-title">História da Inteligência Artificial</h2>
+            <p class="section-intro">
+                Uma jornada fascinante desde os primeiros conceitos até os avanços modernos.
+            </p>
+            
+            <div class="timeline">
+                <!-- Evento 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">1950</div>
+                    <div class="timeline-content">
+                        <h3>Teste de Turing</h3>
+                        <p>Alan Turing propõe um teste para determinar se uma máquina pode exibir comportamento inteligente.</p>
+                    </div>
+                </div>
+                
+                <!-- Evento 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">1956</div>
+                    <div class="timeline-content">
+                        <h3>Nascimento da IA</h3>
+                        <p>O termo "Inteligência Artificial" é criado na Conferência de Dartmouth.</p>
+                    </div>
+                </div>
+                
+                <!-- Evento 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">1997</div>
+                    <div class="timeline-content">
+                        <h3>Deep Blue</h3>
+                        <p>Computador da IBM vence o campeão mundial de xadrez Garry Kasparov.</p>
+                    </div>
+                </div>
+                
+                <!-- Evento 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2011</div>
+                    <div class="timeline-content">
+                        <h3>Watson</h3>
+                        <p>IA da IBM vence campeões humanos no programa de perguntas e respostas Jeopardy!</p>
+                    </div>
+                </div>
+                
+                <!-- Evento 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2016</div>
+                    <div class="timeline-content">
+                        <h3>AlphaGo</h3>
+                        <p>IA do Google DeepMind vence o campeão mundial de Go, um jogo muito mais complexo que xadrez.</p>
+                    </div>
+                </div>
+                
+                <!-- Evento 6 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2022</div>
+                    <div class="timeline-content">
+                        <h3>Era dos LLMs</h3>
+                        <p>Modelos de linguagem como ChatGPT revolucionam a interação humano-máquina.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SEÇÃO: RECURSOS PARA ESTUDO-->
+    <section id="recursos" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Recursos para Estudo</h2>
+            <p class="section-intro">
+                Materiais selecionados para você continuar sua jornada de aprendizado em IA.
+            </p>
+            
+            <div class="resources-grid">
+                <!-- Recurso 1 -->
+                <div class="resource-card">
+                    <div class="resource-icon">📚</div>
+                    <h3>Cursos Online</h3>
+                    <ul>
+                        <li>Coursera - Machine Learning (Andrew Ng)</li>
+                        <li>Fast.ai - Practical Deep Learning</li>
+                        <li>Google AI - Crash Course</li>
+                    </ul>
+                </div>
+                
+                <!-- Recurso 2 -->
+                <div class="resource-card">
+                    <div class="resource-icon">📖</div>
+                    <h3>Livros Recomendados</h3>
+                    <ul>
+                        <li>Inteligência Artificial - Stuart Russell</li>
+                        <li>Deep Learning - Ian Goodfellow</li>
+                        <li>Life 3.0 - Max Tegmark</li>
+                    </ul>
+                </div>
+                
+                <!-- Recurso 3 -->
+                <div class="resource-card">
+                    <div class="resource-icon">💻</div>
+                    <h3>Ferramentas Práticas</h3>
+                    <ul>
+                        <li>TensorFlow - Framework de ML</li>
+                        <li>PyTorch - Biblioteca de Deep Learning</li>
+                        <li>Kaggle - Competições de dados</li>
+                    </ul>
+                </div>
+                
+                <!-- Recurso 4 -->
+                <div class="resource-card">
+                    <div class="resource-icon">🎥</div>
+                    <h3>Canais no YouTube</h3>
+                    <ul>
+                        <li>3Blue1Brown - Matemática visual</li>
+                        <li>Two Minute Papers - Pesquisas em IA</li>
+                        <li>Sentdex - Tutoriais práticos</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Seção de Curiosidades -->
+            <div class="curiosity-section">
+                <h3>💡 Curiosidades sobre IA</h3>
+                <div class="curiosity-box">
+                    <p id="curiosityText">Clique no botão para descobrir uma curiosidade!</p>
+                </div>
+                <button onclick="showCuriosity()" class="btn-secondary">Mostrar Curiosidade</button>
+            </div>
+        </div>
+    </section>
+
+    <!--SEÇÃO: QUIZ INTERATIVO-->
+    <section id="quiz" class="section">
+        <div class="container">
+            <h2 class="section-title">Teste Seus Conhecimentos</h2>
+            <p class="section-intro">
+                Responda ao quiz e descubra o quanto você aprendeu sobre Inteligência Artificial!
+            </p>
+            
+            <div class="quiz-container">
+                <!-- Área do Quiz -->
+                <div id="quizArea" class="quiz-area">
+                    <!-- Contador de perguntas -->
+                    <div class="quiz-progress">
+                        Pergunta <span id="currentQuestion">1</span> de <span id="totalQuestions">5</span>
+                    </div>
+                    
+                    <!-- Pergunta -->
+                    <h3 id="questionText" class="quiz-question">Carregando pergunta...</h3>
+                    
+                    <!-- Respostas -->
+                    <div id="answersContainer" class="answers-container">
+                        <!-- Botões de resposta serão inseridos aqui pelo JavaScript -->
+                    </div>
+                    
+                    <!-- Pontuação -->
+                    <div class="quiz-score">
+                        Pontuação: <span id="score">0</span>
+                    </div>
+                </div>
+                
+                <!-- Área de Resultado -->
+                <div id="resultArea" class="result-area" style="display: none;">
+                    <h3 id="resultTitle" class="result-title">Resultado</h3>
+                    <p id="resultMessage" class="result-message">Mensagem do resultado</p>
+                    <button onclick="restartQuiz()" class="btn-primary">Tentar Novamente</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Coluna 1: Sobre -->
+                <div class="footer-column">
+                    <h3>Sobre o Projeto</h3>
+                    <p>Site educacional criado para ensinar os fundamentos da Inteligência Artificial de forma acessível e interativa.</p>
+                </div>
+                
+                <!-- Coluna 2: Links Rápidos -->
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#o-que-e">O que é IA</a></li>
+                        <li><a href="#aplicacoes">Aplicações</a></li>
+                        <li><a href="#historia">História</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna 3: Contato -->
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul class="footer-contact">
+                        <li>📧 fernandasouzafernandes01@gmail.com</li>
+                        <li>📱 (62) 98462-0971</li>
+                        <li>📍 Goiás, Brasil</li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna 4: Redes Sociais -->
+                <div class="footer-column">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/nanda_fernnands/" class="social-link" aria-label="Instagram">📷 Instagram</a>
+                        <a href="https://www.linkedin.com/in/nanda-fernandes" class="social-link" aria-label="LinkedIn">💼 LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 IA para Iniciantes. Todos os direitos reservados. | Projeto Educacional</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
